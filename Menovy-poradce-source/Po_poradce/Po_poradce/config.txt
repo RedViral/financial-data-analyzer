@@ -1,0 +1,33 @@
+#This is a configuration file for Po_poradce.exe
+#This is the default version.
+
+#STATISTIC
+
+trait_A_belt_width				0.0007
+trait_A_number_of_intervals			20
+trait_B_belt_width				0.0007
+trait_B_number_of_intervals			20
+min_window_size					1
+max_window_size					100
+lines_of_output					15
+required_min_occurence				0.05
+
+#NEURAL
+
+layers						5			#(3 to 5)
+allowed_learning_error				0.000001
+learning_rate					0.7			
+max_unsuccessful_learning_cycles		5
+max_epochs					500000			
+epochs_between_printed_reports			100000
+usage_mode					save			#(save | check | test)
+window_size					8
+study_material_situations			50			
+test_situations					50
+
+#MISC
+
+delete_temporary_files				yes			#(yes | no)
+display_consumed_time				yes
+view_size					1
+gap_size					0
